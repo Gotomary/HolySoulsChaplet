@@ -1,125 +1,6 @@
-
-
-<style>
-
-/* Display checkmark when checked */
-      .box input:checked + .mark:after {
-        display: block;
-        top:-4px;
-                  left:20%;
-        width: 8px;
-        height: 8px;
-              content: "🕆";
-      
-      }
-    .modalDialog {
-        position: fixed;
-                top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: rgba(0,0,0,0.8);
-        z-index: 99999;
-        opacity:0;
-        -webkit-transition: opacity 400ms ease-in;
-        -moz-transition: opacity 400ms ease-in;
-        transition: opacity 400ms ease-in;
-        pointer-events: none;
-overflow: auto;
-width: 100%;
-height: 100%;
-    }
-
-    .modalDialog:target {
-        opacity:1;
-        pointer-events: auto;
-    }
-
-    .modalDialog > div {
-        width: 400px;
-        position: relative;
-        margin: 10% auto;
-        padding: 5px 20px 13px 20px;
-        border-radius: 10px;
-        background: #fff;
-        background: -moz-linear-gradient(#fff, #999);
-        background: -webkit-linear-gradient(#fff, #999);
-        background: -o-linear-gradient(#fff, #999);
-    }
-
-    .close {
-        background: #606061;
-        color: #FFFFFF;
-        line-height: 25px;
-        position: absolute;
-        right: -12px;
-        text-align: center;
-        top: -10px;
-        width: 24px;
-        text-decoration: none;
-        font-weight: bold;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        border-radius: 12px;
-        -moz-box-shadow: 1px 1px 3px #000;
-        -webkit-box-shadow: 1px 1px 3px #000;
-        box-shadow: 1px 1px 3px #000;
-    }
-
-    .close:hover { background: #00d9ff; }
-p {
-  position: relative;
-}
-
-      .box {
-        display: block;
-        position: relative;
-         padding-left: 35px;
-                margin-bottom: 15px;
-        cursor: pointer;
-       
-      }
-      /* Hide the default style of the checkbox */
-      input[type=checkbox] {
-        visibility: hidden;
-      }
-      /* Create a custom checkbox */
-      .mark {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 25px;
-        width: 25px;
-        background-color: #999999;
-         border: 4px solid #000000;
-    background : transparent;
-    border-radius : 5%;
-    
-      }
-      /* Specify the background color for the checkbox while hovering */
-      .box:hover input + .mark {
-        background-color: #1c87c9;
-      }
-      /* Specify the background color for the checkbox when the checkbox is active */
-      .box input:active + .mark {
-        background-color: #ffcc00;
-      }
-      /* Specify the background color for the checkbox when it is checked */
-      .box input:checked + .mark {
-        background-color: #8ebf42;
-      }
-      /* Checkmark to be shown in checkbox */
-      /* It will not be shown when not checked */
-      .mark:after {
-        content: "";
-        position: absolute;
-        display: none;
-      }
-      
-    </style>
-
-<h2><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxnO_f0jbxqoOyB7K7VSeojGSDRXsSOpagJKlQ6gqrYEOfX8s9gt1oQ4zvywlrdh0VLsCvcvDm2wwFOIrxMOOYTYuCKy2UvuZfICDUWogKsjScuSkgJrzBIbekjeNXw1lUb9XgvtMwh-uNtCkfTGvOMkZBtkDU-upwVKtEjXmmR9LgQ8LmGkFz21qD5M/s1280/resurrection-1276566_1280.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1280" data-original-width="745" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxnO_f0jbxqoOyB7K7VSeojGSDRXsSOpagJKlQ6gqrYEOfX8s9gt1oQ4zvywlrdh0VLsCvcvDm2wwFOIrxMOOYTYuCKy2UvuZfICDUWogKsjScuSkgJrzBIbekjeNXw1lUb9XgvtMwh-uNtCkfTGvOMkZBtkDU-upwVKtEjXmmR9LgQ8LmGkFz21qD5M/w186-h320/resurrection-1276566_1280.jpg" width="186" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><span face="&quot;Open Sans&quot;, system-ui" style="background-color: white; color: #191b26; font-size: 14px; text-align: start;">Image by&nbsp;</span><a href="https://pixabay.com/users/robertcheaib-616663/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1276566" style="background-color: white; box-sizing: border-box; color: #191b26; font-family: &quot;Open Sans&quot;, system-ui; font-size: 14px; text-align: start;">Robert Cheaib</a><span face="&quot;Open Sans&quot;, system-ui" style="background-color: white; color: #191b26; font-size: 14px; text-align: start;">&nbsp;from&nbsp;</span><a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1276566" style="background-color: white; box-sizing: border-box; color: #191b26; font-family: &quot;Open Sans&quot;, system-ui; font-size: 14px; text-align: start;">Pixabay</a><br /><br /></td></tr></tbody></table></h2><h2><br /></h2><h2>Chaplet of the Holy Souls</h2>
-    <h3>The Chaplet can be prayed using normal rosary beads.</h3>
+<h2> Chaplet of the Holy Souls</h2>
+<h3>The Chaplet can be prayed using normal rosary beads.</h3>
+<p>All who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven. (CCC. 1030)</p><br/>
 <body>
    <form>
 <label class="box"><a href="#openModal1">Apostles' Creed</a>
@@ -532,5 +413,123 @@ p {
 
 </form>
   <br /></body>
+<style>
+
+/* Display checkmark when checked */
+      .box input:checked + .mark:after {
+        display: block;
+        top:-4px;
+                  left:20%;
+        width: 8px;
+        height: 8px;
+              content: "🕆"
+                ;
+      
+      }
+    .modalDialog {
+        position: fixed;
+                top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+overflow: auto;
+width: 100%;
+height: 100%;
+    }
+
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+    .close {
+        background: #606061;
+        color: #FFFFFF;
+        line-height: 25px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        -moz-box-shadow: 1px 1px 3px #000;
+        -webkit-box-shadow: 1px 1px 3px #000;
+        box-shadow: 1px 1px 3px #000;
+    }
+
+    .close:hover { background: #00d9ff; }
+p {
+  position: relative;
+}
+
+      .box {
+        display: block;
+        position: relative;
+         padding-left: 35px;
+                margin-bottom: 15px;
+        cursor: pointer;
+       
+      }
+      /* Hide the default style of the checkbox */
+      input[type=checkbox] {
+        visibility: hidden;
+      }
+      /* Create a custom checkbox */
+      .mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #999999;
+         border: 4px solid #000000;
+    background : transparent;
+    border-radius : 5%;
+    
+      }
+      /* Specify the background color for the checkbox while hovering */
+      .box:hover input + .mark {
+        background-color: #1c87c9;
+      }
+      /* Specify the background color for the checkbox when the checkbox is active */
+      .box input:active + .mark {
+        background-color: #ffcc00;
+      }
+      /* Specify the background color for the checkbox when it is checked */
+      .box input:checked + .mark {
+        background-color: #8ebf42;
+      }
+      /* Checkmark to be shown in checkbox */
+      /* It will not be shown when not checked */
+      .mark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+    </style>
 
  
