@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Chaplet of the Holy Souls</title>
-    <style>
-    
+
+
+<style>
+
+/* Display checkmark when checked */
+      .box input:checked + .mark:after {
+        display: block;
+        top:-4px;
+                  left:20%;
+        width: 8px;
+        height: 8px;
+              content: "🕆";
+      
+      }
     .modalDialog {
         position: fixed;
-        font-family: Arial, Helvetica, sans-serif;
-        top: 0;
+                top: 0;
         right: 0;
         bottom: 0;
         left: 0;
@@ -108,434 +115,422 @@ p {
         position: absolute;
         display: none;
       }
-      /* Display checkmark when checked */
-      .box input:checked + .mark:after {
-        display: block;
-  
-        
-        left:30%;
-        width: 8px;
-        height: 8px;
       
-        content: "✞";
-      
-      }
     </style>
-  </head>
-  <body>
-    <h2>Chaplet of the Holy Souls</h2>
+
+<h2><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxnO_f0jbxqoOyB7K7VSeojGSDRXsSOpagJKlQ6gqrYEOfX8s9gt1oQ4zvywlrdh0VLsCvcvDm2wwFOIrxMOOYTYuCKy2UvuZfICDUWogKsjScuSkgJrzBIbekjeNXw1lUb9XgvtMwh-uNtCkfTGvOMkZBtkDU-upwVKtEjXmmR9LgQ8LmGkFz21qD5M/s1280/resurrection-1276566_1280.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1280" data-original-width="745" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxnO_f0jbxqoOyB7K7VSeojGSDRXsSOpagJKlQ6gqrYEOfX8s9gt1oQ4zvywlrdh0VLsCvcvDm2wwFOIrxMOOYTYuCKy2UvuZfICDUWogKsjScuSkgJrzBIbekjeNXw1lUb9XgvtMwh-uNtCkfTGvOMkZBtkDU-upwVKtEjXmmR9LgQ8LmGkFz21qD5M/w186-h320/resurrection-1276566_1280.jpg" width="186" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><span face="&quot;Open Sans&quot;, system-ui" style="background-color: white; color: #191b26; font-size: 14px; text-align: start;">Image by&nbsp;</span><a href="https://pixabay.com/users/robertcheaib-616663/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1276566" style="background-color: white; box-sizing: border-box; color: #191b26; font-family: &quot;Open Sans&quot;, system-ui; font-size: 14px; text-align: start;">Robert Cheaib</a><span face="&quot;Open Sans&quot;, system-ui" style="background-color: white; color: #191b26; font-size: 14px; text-align: start;">&nbsp;from&nbsp;</span><a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1276566" style="background-color: white; box-sizing: border-box; color: #191b26; font-family: &quot;Open Sans&quot;, system-ui; font-size: 14px; text-align: start;">Pixabay</a><br /><br /></td></tr></tbody></table></h2><h2><br /></h2><h2>Chaplet of the Holy Souls</h2>
     <h3>The Chaplet can be prayed using normal rosary beads.</h3>
-    <form>
-   
+<body>
+   <form>
 <label class="box"><a href="#openModal1">Apostles' Creed</a>
-        <input type="checkbox" >
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
    
-  <div id="openModal1" class="modalDialog">
+  <div class="modalDialog" id="openModal1">
 <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a class="close" href="#close" title="Close">X</a>
     <h2>Apostle's Creed</h2>
     
-    <p>I believe in God, the Father almighty,<p>
-creator of heaven and earth.<p>
+    <p>I believe in God, the Father almighty,</p>
+<p>creator of heaven and earth.</p>
 
-I believe in Jesus Christ, God's only Son, our Lord,<p>
-who was conceived by the Holy Spirit,<p>
-born of the Virgin Mary,<p>
-suffered under Pontius Pilate,<p>
-was crucified, died, and was buried;<p>
-he descended to the dead.<p>
-On the third day he rose again;<p>
-he ascended into heaven,<p>
-he is seated at the right hand of the Father,<p>
-and he will come to judge the living and the dead.<p>
+<p>I believe in Jesus Christ, God's only Son, our Lord,/</p>
+<p>who was conceived by the Holy Spirit,</p>
+<p>born of the Virgin Mary,</p>
+<p>suffered under Pontius Pilate,</p>
+<p>was crucified, died, and was buried;</p>
+<p>he descended to the dead.</p>
+<p>On the third day he rose again;</p>
+<p>he ascended into heaven,</p>
+<p>he is seated at the right hand of the Father,</p>
+<p>and he will come to judge the living and the dead.</p>
 
-I believe in the Holy Spirit,<p>
-the holy catholic Church,<p>
-the communion of saints,<p>
-the forgiveness of sins,<p>
-the resurrection of the body,<p>
-and the life everlasting. Amen</p>
+<p>I believe in the Holy Spirit,</p>
+<p>the holy catholic Church,</p>
+<p>the communion of saints,</p>
+<p>the forgiveness of sins,</p>
+<p>the resurrection of the body,</p>
+<p>and the life everlasting. Amen</p>
 </div>
 </div>
      
       
       <label class="box">  <a href="#openModal2">Our Father</a>
-        <input type="checkbox" >
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
     
 
-<div id="openModal2" class="modalDialog">
+<div class="modalDialog" id="openModal2">
 <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a class="close" href="#close" title="Close">X</a>
     <h2>Our Father</h2>
-    <p>Our Father who art in heaven,<p>
-Hallowed be thy name.<p>
-Thy kingdom come.<p>
-Thy will be done<p>
-on earth as it is in heaven.<p>
-Give us this day our daily bread,<p>
-and forgive us our trespasses,<p>
-as we forgive those who trespass against us,<p>
-and lead us not into temptation,<p>
-but deliver us from evil.<p>
-</p>
+    <p>Our Father who art in heaven,</p>
+<p>Hallowed be thy name.</p>
+<p>Thy kingdom come.</p>
+<p>Thy will be done</p>
+<p>on earth as it is in heaven.</p>
+<p>Give us this day our daily bread,</p>
+<p>and forgive us our trespasses,</p>
+<p>as we forgive those who trespass against us,</p>
+<p>and lead us not into temptation,</p>
+<p>but deliver us from evil.</p>
 </div>
 </div> 
       <label class="box"><a href="#openModal3">Hail Mary</a>
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
 
-<div id="openModal3" class="modalDialog">
+<div class="modalDialog" id="openModal3">
 <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a class="close" href="#close" title="Close">X</a>
     <h2>Hail Mary</h2>
     <p>Hail Mary, full of grace, the Lord is with thee; blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of death. Amen.</p>
 </div>
 </div>
    <p> 
  <label class="box">  Hail Mary
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
 
-   <p> 
+   </p><p> 
  <label class="box"> Hail Mary
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
 
-   <p>
+   </p><p>
     <label class="box">    <a href="#openModal4">Glory Be</a>
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
 
-<div id="openModal4" class="modalDialog">
+</p><div class="modalDialog" id="openModal4">
 <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a class="close" href="#close" title="Close">X</a>
     <h2>Glory Be</h2>
-    <p>Glory to the Father, and to the Son, and to the Holy Spirit,<p>
-As it was in the beginning, and now, and ever shall be, world without end. Amen.</p>
+ <p>Glory to the Father, and to the Son, and to the Holy Spirit,</p>
+<p>As it was in the beginning, and now, and ever shall be, world without end. Amen.</p>
 </div>
+  
 </div>
-<br/>
 
  <label class="box">    Oh Holy Souls, draw the fire of God's Love into my souls, to reveal Jesus crucified in me here on earth, rather than hereafter in Purgatory.
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
-      <br/>
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      <br />
       <label class="box">    Oh Holy Souls, draw the fire of God's Love into my souls, to reveal Jesus crucified in me here on earth, rather than hereafter in Purgatory.
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
-<br/>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+<br />
 
 <label class="box">    Oh Holy Souls, draw the fire of God's Love into my souls, to reveal Jesus crucified in me here on earth, rather than hereafter in Purgatory.
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
-<br/>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+<br />
 
 <label class="box">    Oh Holy Souls, draw the fire of God's Love into my souls, to reveal Jesus crucified in me here on earth, rather than hereafter in Purgatory.
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
-<br/>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+<br />
 
 <label class="box">    Oh Holy Souls, draw the fire of God's Love into my souls, to reveal Jesus crucified in me here on earth, rather than hereafter in Purgatory.
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
-        <span class="mark"></span>
-      </label>
-      
-         
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
       
          
-<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox">
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
         <span class="mark"></span>
       </label>
-<br/>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+      
+      
+         
+<label class="box">   Crucified Lord Jesus, have mercy on the souls in purgatory.        <input type="checkbox" />
+        <span class="mark"></span>
+      </label>
+<br />
   <label class="box">    <a href="#openModal5">Glory Be</a>
-        <input type="checkbox">
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
    
 
-<div id="openModal5" class="modalDialog">
+<div class="modalDialog" id="openModal5">
 <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a class="close" href="#close" title="Close">X</a>
     <h2>Glory Be</h2>
-    <p>Glory to the Father, and to the Son, and to the Holy Spirit,<p>
-As it was in the beginning, and now, and ever shall be, world without end. Amen.</p>
+    <p>Glory to the Father, and to the Son, and to the Holy Spirit,</p>
+<p>As it was in the beginning, and now, and ever shall be, world without end. Amen.</p>
 </div>
 </div>
 
-<label class="box">    Glory Be</a>
-        <input type="checkbox">
+<label class="box">    Glory Be
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
       
-      <label class="box">   Glory Be</a>
-        <input type="checkbox">
+      <label class="box">   Glory Be
+        <input type="checkbox" />
         <span class="mark"></span>
       </label>
 
-    </form>
-  </body>
-</html>
+</form>
+  <br /></body>
+
+ 
